@@ -1,0 +1,13 @@
+The Invensense Motion Driver 5.1 and its Source code is Licensed by Invensense as follows:
+
+3.1 License Grants. Subject to and conditioned on Licensee’s compliance with the terms and conditions of this Agreement, InvenSense grants to Licensee, under InvenSense’s copyrights embodied in the Licensed Materials, the following non-exclusive, non-transferable, non-sublicensable rights to:
+
+• (a) incorporate the Software into Licensee Products solely for use with the InvenSense Products included in such Licensee Products;
+
+• (b) with respect only to Software provided to Licensee in Source Code, execute, reproduce and modify the Source Code and compile such modified or unmodified Source Code, to the extent needed to incorporate the Software, in source, binary or object code form, into Licensee Products in accordance with clause (a) above;
+
+• (c) use the How-to Guides and make a reasonable number of copies of the How-to Guides as reasonably necessary to exercise Licensee’s license rights granted in clause (a) and (b) above;
+
+• (d) demonstrate the Software solely as incorporated into Licensee Product and used with the InvenSense Product to actual and prospective customers of Licensee; and
+
+• (e) distribute the Software solely as incorporated in Licensee Products for use with the InvenSense Products included therein to actual customers of Licensee.
