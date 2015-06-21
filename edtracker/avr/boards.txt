@@ -29,7 +29,7 @@ edtracker9250.build.pid=0x8036
 edtracker9250.build.usb_product="EDTracker EDTracker2"
 edtracker9250.build.board=AVR_EDTRACKER2-9250
 edtracker9250.build.core=edtracker:edtracker
-edtracker9250.build.variant=edtracker:edtracker2-9150
+edtracker9250.build.variant=edtracker:edtracker2-9250
 edtracker9250.build.extra_flags={build.usb_flags}
 
 ##############################################################
