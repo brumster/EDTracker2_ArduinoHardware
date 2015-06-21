@@ -590,7 +590,7 @@ const struct hw_s hw = {
 #endif
 };
 
-const struct test_s test = {kjkljl
+const struct test_s test = {
     .gyro_sens      = 131,//32768/250,
     .accel_sens     = 2048,//32768/16,
     .reg_rate_div   = 0,    /* 1kHz. */
