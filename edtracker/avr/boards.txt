@@ -1,5 +1,39 @@
 ﻿##############################################################
 
+edtracker9250.name=EDTracker 9250
+edtracker9250.vid.0=0x2341
+edtracker9250.pid.0=0x0036
+edtracker9250.vid.1=0x2341
+edtracker9250.pid.1=0x8036
+edtracker9250.upload.tool=arduino:avrdude
+edtracker9250.upload.protocol=avr109
+edtracker9250.upload.maximum_size=28672
+edtracker9250.upload.maximum_data_size=2560
+edtracker9250.upload.speed=57600
+edtracker9250.upload.disable_flushing=true
+edtracker9250.upload.use_1200bps_touch=true
+edtracker9250.upload.wait_for_upload_port=true
+
+edtracker9250.bootloader.tool=arduino:avrdude
+edtracker9250.bootloader.low_fuses=0xff
+edtracker9250.bootloader.high_fuses=0xd8
+edtracker9250.bootloader.extended_fuses=0xcb
+edtracker9250.bootloader.file=caterina/Caterina-Leonardo.hex
+edtracker9250.bootloader.unlock_bits=0x3F
+edtracker9250.bootloader.lock_bits=0x2F
+
+edtracker9250.build.mcu=atmega32u4
+edtracker9250.build.f_cpu=16000000L
+edtracker9250.build.vid=0x2341
+edtracker9250.build.pid=0x8036
+edtracker9250.build.usb_product="EDTracker EDTracker2"
+edtracker9250.build.board=AVR_EDTRACKER2-9250
+edtracker9250.build.core=edtracker:edtracker
+edtracker9250.build.variant=edtracker:edtracker2-9150
+edtracker9250.build.extra_flags={build.usb_flags}
+
+##############################################################
+
 edtracker9150.name=EDTracker 9150
 edtracker9150.vid.0=0x2341
 edtracker9150.pid.0=0x0036
