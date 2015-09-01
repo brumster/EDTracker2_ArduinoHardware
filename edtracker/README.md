@@ -13,3 +13,5 @@ Summary of changes/inclusions :
  - I2C library included (Jeff Rowberg - MIT license)
  - Invensense Motion Driver (Invensense)
  - Wire (TWI) library included (Nicholas Zambetti - GNU license)
+ 
+Tested successfully with Arduino IDE 1.6.4 and 1.6.5

@@ -2664,12 +2664,18 @@ static int setup_compass(void)
     if (i2c_write(st.hw->addr, st.reg->i2c_delay_ctrl, 1, data))
         return -1;
 
+/*
+ * REMOVED DMH 1/9/2015 : We don't make use of aux i2c on EDTracker and this was breaking size limits for 9150
+ * variants, whilst allowing 6050/9250 to compile OK. In interests of space, I've removed it. If you're doing
+ * a custom build/device where you're making use of aux i2c you may need to re-include
+ *
 #ifdef MPU9150
-    /* For the MPU9150, the auxiliary I2C bus needs to be set to VDD. */
+    // For the MPU9150, the auxiliary I2C bus needs to be set to VDD.
     data[0] = BIT_I2C_MST_VDDIO;
     if (i2c_write(st.hw->addr, st.reg->yg_offs_tc, 1, data))
         return -1;
 #endif
+*/
 
     return 0;
 #else
