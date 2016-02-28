@@ -13,3 +13,9 @@ Summary of changes/inclusions :
  - I2C library included (Jeff Rowberg - MIT license)
  - Invensense Motion Driver (Invensense)
  - Wire (TWI) library included (Nicholas Zambetti - GNU license)
+ 
+NB: We removed the keyboard and mouse components from the USB HID descriptor
+as of 28th Jan (pushed to Git 28th Feb) in the interests of space and neatness.
+If these matter to you (maybe you have customised the firmware to report as
+a mouse, for example) then please revert to the previous release of the
+hardware files.

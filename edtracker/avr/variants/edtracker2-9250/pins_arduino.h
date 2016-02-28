@@ -29,6 +29,8 @@
 
 #define EMPL_TARGET_ATMEGA328
 #define MPU9250
+#define AK8963_SECONDARY
+
 	
 // Workaround for wrong definitions in "iom32u4.h".
 // This should be fixed in the AVR toolchain.

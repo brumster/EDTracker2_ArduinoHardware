@@ -159,6 +159,12 @@ static inline int reg_int_cb(struct int_param_s *int_param)
 /* #warning "No compass = less profit for Invensense. Lame." */
 #endif
 
+#if defined AK8963_SECONDARY
+#endif
+
+#if defined AK8975_SECONDARY
+#endif
+
 static int set_int_enable(unsigned char enable);
 
 /* Hardware registers needed by driver. */
