@@ -19,3 +19,5 @@ as of 28th Jan (pushed to Git 28th Feb) in the interests of space and neatness.
 If these matter to you (maybe you have customised the firmware to report as
 a mouse, for example) then please revert to the previous release of the
 hardware files.
+
+Tested successfully with Arduino IDE 1.6.4, 1.6.7 and 1.8.5
