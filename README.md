@@ -6,6 +6,8 @@ your <Arduino Install>/hardware/ folder.
 
 When compiling, choose the appropriate device from Tools -> Board
 
+The target hardware for EDTracker2 is a 16MHz ATMEGA32U4-based device (e.g. Sparkfun Pro Micro).
+
 Summary of changes/inclusions :
  - Arduino core files USBAPI.h/HID.cpp modified to include a USB joystick as
    part of the HID descriptor
