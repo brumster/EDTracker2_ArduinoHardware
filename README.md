@@ -1,5 +1,4 @@
 # EDTracker2_ArduinoHardware
-www.edtracker.org.uk
 Please note : I am no longer affiliated with EDTracker Ltd or edtracker.org.uk, but until such time as an alternative repository is put in place, I will continue to front this repository and will maintain it on a best endeavours basis.
 
 Packaged up hardware files for EDTracker2. Place the "edtracker" folder into
